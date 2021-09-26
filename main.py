@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to project 1"}
+    return {"message": "Completed Project 1"}
     
 @app.get("/multiply/{num1}/{num2}")
 async def add(num1: int, num2: int):
